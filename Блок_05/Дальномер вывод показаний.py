@@ -1,5 +1,4 @@
 from pioneer_sdk import Pioneer
-import time
 def wait():
     while not drone.point_reached():
         pass
